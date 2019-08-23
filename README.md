@@ -26,7 +26,8 @@ func goMethod(_value string) string {
 	return _value  
 }  
 ```
-Finally throw the program into Linux to compile:
+Finally throw the program into Linux to compile:  
+```
 go build -buildmode=c-shared -o main.so ./main.go
-
+```
 So we're going to generate two files here one with the.h end and the other with the so end;When using these two files can be introduced;
