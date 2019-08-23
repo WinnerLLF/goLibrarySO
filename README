@@ -1,7 +1,6 @@
 # GoLibrarySO
 
 This is a dynamic library compiled by the go language that supports Java calls.  
-这是一个通过go语言编译的动态库,支持java的调用.
 
 First：  
 import "C"  
