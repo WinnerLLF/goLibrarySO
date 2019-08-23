@@ -3,9 +3,12 @@
 This is a dynamic library compiled by the go language that supports Java calls.  
 
 First：  
+```
 import "C"  
+```
 
 Secondly：  
+```go
 //export RunGoLibrarySo  
 func RunGoLibrarySo(_str *C.char) *C.char {  
 	//TODO 接收参数  
@@ -22,7 +25,7 @@ func goMethod(_value string) string {
 
 	return _value  
 }  
-
+```
 Finally throw the program into Linux to compile:
 go build -buildmode=c-shared -o main.so ./main.go
 
